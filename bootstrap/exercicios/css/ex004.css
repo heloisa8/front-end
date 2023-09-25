@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://macmagazine.com.br/wp-content/uploads/2023/06/05-wallpaper-macos-sonoma-scaled.jpg);
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 30px;
+}
+div{
+    text-align: center !important;
+}

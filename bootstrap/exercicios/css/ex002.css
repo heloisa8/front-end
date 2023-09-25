@@ -1,0 +1,6 @@
+:root(){
+    --primary: orange;
+}
+.text-primary{
+    color: var(--primary) !important;
+}

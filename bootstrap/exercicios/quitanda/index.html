@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<style>
+    img{
+        height: 500px;
+        width: 500px;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar bg-danger navbar-dark navbar-expand-sm ">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-house-heart"></i> Quitanda online
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+
+            <div class="navbar-collapse collapse" id="menu">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Principal</a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contato</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item"><i class="bi bi-instagram"></i> Instagram</a></li>
+                             <li>   <a href="#" class="dropdown-item"><i class="bi bi-facebook"></i> Facebook</a></li>
+                               <li> <a href="#" class="dropdown-item"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+
+                            </li>
+                            <li>
+                                <a href="contato.html" class="link-offset-2 link-underline link-underline-opacity-0 text-black"><i class="bi bi-envelope"></i>email</a>
+                            </li>
+                        </ul>
+                    </div>                
+
+                </div>
+                <div class="navbar-collapse collapse d-flex  justify-content-end " id="menu" >
+                    <div class="navbar-nav ">
+                        <a href="cadastro.html" class="nav-link col-3 ">Quero Me Cadastrar</a>
+                            
+                        <a href="entrar.html" class="nav-link col-3"><i class="bi bi-person-badge"></i>entrar</a>
+                                
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+<main class="container pt-3 ">
+    <!--sessão dos carrousel-->
+    <section id="meucarrousel" class="carousel  carousel-dark  slide" data-bs-ride="carousel ">
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#meucarrousel" data-bs-slide-to="0" class="active ">
+            </button>
+            <button type="button" data-bs-target="#meucarrousel" data-bs-slide-to="1" ></button>
+            <button type="button" data-bs-target="#meucarrousel" data-bs-slide-to="2" ></button>
+            <button type="button" data-bs-target="#meucarrousel" data-bs-slide-to="3" ></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active " data-bs-interval="10">
+                <img src="/bootstrap/img/slides/slide01.jpg" class="w-100 d-block ">
+               
+            </div>
+
+            <!--imagem dois-->
+            <div class="carousel-item ">
+                <img src="/bootstrap/img/slides/slide01.jpg" class="w-100  d-block ">
+            </div>
+            <div class="carousel-item ">
+                <img src="/bootstrap/img/slides/slide01.jpg"  class="w-100  d-block ">
+            </div>
+            <div class="carousel-item ">
+                <img src="/bootstrap/img/slides/slide01.jpg"  class="w-100  d-block ">
+            </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#meucarrousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+        </button>
+        
+        <button class="carousel-control-next " type="button" data-bs-target="#meucarrousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon "></span>
+        </button>
+
+    </section>
+</main>
+
+<hr class="container ">
+
+<div class="container ">
+    <input type="text" class="w-50 " placeholder="digite o produto"> <button type="button" class="bg-danger w-25  ">buscar</button>  <select name="" id="" class="pe-4 ">
+        <option value="">ordenar pelo nome</option>
+    </select>
+</div>
+
+<hr class="container ">
+
+<main class="container mt-3 ">
+    <section class="row gap-4 ">
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000001.jpg" class="card-img-top w-50 h-50 " >
+        <div class="card-header "><a class="link-offset-2 link-underline link-underline-opacity-0 text-black " href="produto.html">4,50</a></div>
+        <div class="card-body ">
+         <h5 class="card-title ">BANANA PRATA</h5>
+         <p class="card-text ">melhor banana prata da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">320.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+  
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000002.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">5,50</div>
+        <div class="card-body ">
+         <h5 class="card-title ">ABACAXI</h5>
+         <p class="card-text ">melhor abacaxi da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">120.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000003.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">2,78</div>
+        <div class="card-body ">
+         <h5 class="card-title ">MAMÃO</h5>
+         <p class="card-text ">melhor mamão da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">20.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+      
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000004.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">9,78</div>
+        <div class="card-body ">
+         <h5 class="card-title ">MAÇÃ ARGENTINA</h5>
+         <p class="card-text ">melhor maçã argentina da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000005.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">12,78</div>
+        <div class="card-body ">
+         <h5 class="card-title ">GOIABA</h5>
+         <p class="card-text ">melhor goiaba da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000006.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">9,78</div>
+        <div class="card-body ">
+         <h5 class="card-title ">LARANJA</h5>
+         <p class="card-text ">melhor laranja da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+     
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000007.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">5,83</div>
+        <div class="card-body ">
+         <h5 class="card-title ">ABACATE AVOCADO</h5>
+         <p class="card-text ">melhor abacate da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000008.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">3,08</div>
+        <div class="card-body ">
+         <h5 class="card-title ">ABACATE BREDA</h5>
+         <p class="card-text ">melhor abacate da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000009.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">2,20</div>
+        <div class="card-body ">
+         <h5 class="card-title ">ABOBORA</h5>
+         <p class="card-text ">melhor abobora da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+      <div class="card col-10 col-md-5 col-lg-3 col-xl-2">
+        <img src="/bootstrap/img/produtos/000010.jpg" class="card-img-top w-50 h-50 ">
+        <div class="card-header ">9,78</div>
+        <div class="card-body ">
+         <h5 class="card-title ">ABOBRINHA</h5>
+         <p class="card-text ">melhor abobrinha da região
+         </p>
+         <div class="card-header "> <button class="btn btn-danger  "> adicionar ao carrinho </button>
+            <p class="card-text ">520.51kg em estoque
+           </p></div>
+        
+        </div>
+      </div>
+     
+      </section>
+</main>
+<br>
+<footer class="container bg-secondary bg-opacity-25 ">
+    <adress>
+       2020-quitanda online 
+      </adress>
+    <p>  Parque da Quinta da Boa Vista S/N<br>São Cristóvão, RJ, 20940-040.</p>
+</footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

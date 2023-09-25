@@ -1,0 +1,15 @@
+@media(max-width: 575px){
+.principal {
+background-color: red;
+}
+}
+@media(min-width: 576px){
+    .principal{
+        background-color: blue;
+    }
+}
+@media(min-width: 578px){
+    .principal{
+        background-color: blueviolet;
+    }
+}

@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://i.gifer.com/Rnb9.gif);
+}
+.gradient {
+    background-image: linear-gradient(to bottom, rgb(234, 255, 0), rgb(0, 0, 0), rgb(144, 0, 255));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+  }
+  h1{
+    text-align: center;
+  }
